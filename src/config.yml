@@ -1,0 +1,18 @@
+# If allowed is set to true, only allow the biomes named in the list.
+# If allowed is set to false, allow all biomes except the ones named in the list.
+allowed: true
+
+# List of biomes in which wheat CAN'T grow
+wheat:
+    - OCEAN
+
+# List of biomes in which carrots CAN'T grow
+carrot:
+    - OCEAN
+
+# List of biomes in which potatoes CAN'T grow
+potato:
+    - OCEAN
+
+# Exclusion height, every block below it will always grow.
+exclusion: 45
